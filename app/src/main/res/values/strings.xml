@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">feedlyapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="token_value">
+Bearer A3qBXsU_drb0F2JrEK_jKRktgeHUKhP05lip4ATEq_ZGxJw3VyK7J7zz1CS2G4oRpPnALw2WmP8TUdXmilt42EG4-Iuf-VCV764byUOieOjVM51EQOGPVnHOSaHl9kaA71MQE68u7P0fcKNN9jejaLSoroyTvgZqXyXApS0_02uj3r4pH2dao4xWMzx7MIKDK6XYRRsGcX9nvS75xt8s2xCMcEUThFuB_v1wbdJ6fmAjwQWZ7KV4XJtTk4Ka:feedlydev</string>
+</resources>
