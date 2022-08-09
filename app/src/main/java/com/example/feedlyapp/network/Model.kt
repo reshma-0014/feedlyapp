@@ -8,6 +8,5 @@ data class Model (
     val title : String,
     @Json(name = "visualUrl")
     val img : String,
-    val estimatedEngagement : Int,
-
+    var estimatedEngagement: Int,
 )

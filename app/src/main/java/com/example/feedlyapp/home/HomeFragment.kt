@@ -49,27 +49,27 @@ class HomeFragment : Fragment() {
         viewModel.feed.observe(viewLifecycleOwner, Observer {
 
            model=it
-           model= model.sortedBy {
+           model= model.sortedByDescending {
                 it.estimatedEngagement
             }
+           // display(model)
             val adapter = Adapter(model)
 
             binding.recyclerMain.adapter = adapter
 
         })
 
-
-
-
-
-
-
-
-
-
         //setHasOptionsMenu(true)
         return binding.root
     }
+
+//    fun display(models: List<Model>)
+//    {
+//       for(i in models)
+//       {
+//               i.estimatedEngagement=i.estimatedEngagement/1000 +i.estimatedEngagement/100
+//       }
+//    }
 
 
 }

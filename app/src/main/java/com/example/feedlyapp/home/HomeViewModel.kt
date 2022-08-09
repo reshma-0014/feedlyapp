@@ -19,6 +19,7 @@ class HomeViewModel: ViewModel() {
     val feed: LiveData<List<Model>>
         get() = _feed
 
+
     init {
         getfeedlyProperties()
     }
